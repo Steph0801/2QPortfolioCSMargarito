@@ -7,25 +7,30 @@
     <link rel="icon" type="image/png" href="https://freepngimg.com/thumb/rose/27629-9-pink-rose-transparent.png">
 
     <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
         .topnav {
-  background-color:lightpink;
+  background-color:beige;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color:hotpink;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color:hotpink;
+  color:beige;
 }
 
 /* Add a color to the active/current link */
@@ -33,31 +38,81 @@
   background-color: #04AA6D;
   color: white;
 }
+body, nav {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+img.banner {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.banner2 {
+  display: flex;                  /* Places text and image side by side */
+  align-items: center;            /* Centers them vertically */
+  justify-content: center;        /* Centers them horizontally on the page */
+  background-color: #F5F5DC;      /* Match your current background */
+  margin: 0;
+  padding: 20px 0;
+}
+.banner2 h1 {
+  color: #ff4fa0;                 /* Your pink color */
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 20px;             /* Space between text and logo */
+}
+
+.banner2 img {
+  display: block;
+}
+ table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        th, td {
+            border: 1px solid #7f4646;
+            text-align: left;
+            padding: 12px;
+        }
+
+        th {
+            background-color: lightpink;
+            color: white;
+        }
     </style>
 </head>
 <body>
     <div class="topnav">
-        <a href="../index.html">Home</a>
+        <a href="https://steph0801.github.io/2QPortfolioCSMargarito/public/2Q1GCSMargarito.html">Home</a>
         <a href="https://flarepia.github.io/2QPortifolioCSTonido/">Leni's Background</a>
         <a href="https://vkarthikeyan30.github.io/2QPortfolioCSKarthikeyan/">Political Career</a>
         <a href="https://mdolave.github.io/2QPORTFOLIO_CS-24_OLAVE/public/2Q1GCsOlave.html">Legislations</a>
-      </div>
-    <h1 style="background-color:beige; font-family: 'Times New Roman', Times, serif; color:white;">
+    </div>
+    <div class="banner2">
+        <h1 style="background-color:beige;color:hotpink;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"><b>Leni Robredo:</b></h1>
+        <img src="https://www.angatbuhay.ph/wp-content/uploads/2023/03/cropped-Angat-buhay-logo-1-2048x1153.png" alt="angat buhay logo" width="300"><br>
+    </div><br>
     <center>
-        <img src="https://www.angatbuhay.ph/wp-content/uploads/2023/03/cropped-Angat-buhay-logo-1-2048x1153.png" alt="angat buhay logo" width="300">
-    </center>
-    </h1>
-    <center>
-    <h1 style="color:lightpink">Objective</h1>
+    <h1 style="color:lightpink">Objective</h1><br>
     <p style="color:darkcyan; font-size: medium;">
         Angat buhay is a non-profit organization established by former Vice President Leni Robredo with programs aimed to alleviate poverty and respond to disasters. The organization
         was established on July 1, 2022 after her term as vice president of the Philippines. Angat Buhay serves to continue the relief activities she started during the pandemic and her term.
-    </p>
-    <iframe width="656" height="369" src="https://www.youtube.com/embed/9aaS7Mi0hdE?list=RD9aaS7Mi0hdE" title="Angat Buhay Theme Song - Miguel and Paolo Guico of Ben&amp;Ben" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <h1 style="color:lightpink">Operations</h1>
-    </center>
+    </p><br>
+    <iframe width="656" height="369" src="https://www.youtube.com/embed/9aaS7Mi0hdE?list=RD9aaS7Mi0hdE" title="Angat Buhay Theme Song - Miguel and Paolo Guico of Ben&amp;Ben" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+    <br>
+    <h1 style="color:lightpink">Operations</h1><br>
     <p style="color:darkcyan; font-size: medium;">
         Angat buhay implements programs nationwide, including the following:
+    </center>
         <table style="color:darkcyan; font-size: medium;">
             <tr>
                 <th>Programs</th>
@@ -66,60 +121,56 @@
             </tr>
             <tr>
                 <td>Public Education</td>
-                <td>Arts and culture</td>
-                <td>Community engagement</td>
-                <td>Health, nutrition, and food security</td>
-            </tr>
-            <li>Public education</li>
-                <p>Angat buhay intiates education for the Filipino youth, primarily on literacy and numeracy
+                <td><p>Angat buhay intiates education for the Filipino youth, primarily on literacy and numeracy
                 to ensure they acquire skills fit for employment. They also collaborate with partners
-                to provide learning facilities.</p>
-                <center>
+                to provide learning facilities.</p></td>
+                <td><center>
                 <img src="https://www.angatbuhay.ph/wp-content/uploads/2025/09/AB-tutor-sessions-1.jpeg" alt="tutor session" width="250">
                 <p style="font-size: xx-small; color:darkcyan">Figure 1. Tutor session</p>
-                </center>
-            <li>Arts and culture</li>
-                <p>
-                    Angat sining fellowship provides the opportunities to learn, talk, and network between
-                    young talents and artists in the Philippines.
-                </p>
-                <center>
+                </center></td>
+            </tr>
+            <tr>
+                <td>Arts and culture</td>
+                <td><p>Angat sining fellowship provides the opportunities to learn, talk, and network between
+                young talents and artists in the Philippines.</p></td>
+                <td><center>
                 <img src="https://www.angatbuhay.ph/wp-content/uploads/2025/10/AB-Designing-with-Empathy-1-300x200.jpg" alt="ribbon cutting" width="250">
                 <p style="font-size: xx-small; color:darkcyan">Figure 2. Ribbon cutting of Angat Sining Arkitektura for young architects' project completion</p>
-                </center>
-            <li>Community engagement</li>
-                <p>
-                    This takes inspiration from the Filipino culture of Bayanihan, encouraging partners and/or volunteers
-                    to help in their respective communities.
-                </p>
-                <center>
+                </center></td>
+            </tr>
+            <tr>
+                <td>Community engagement</td>
+                <td><p>This takes inspiration from the Filipino culture of Bayanihan, encouraging partners and/or volunteers
+                to help in their respective communities.</p></td>
+                <td><center>
                 <img src="https://www.angatbuhay.ph/wp-content/uploads/2025/09/AB-SecurityBank-1-768x512.jpg" alt="volunteers planting" width="250">
                 <p style="font-size: xx-small; color:darkcyan">Figure 3. Volunteers planting corresponding to community development in Aklan</p>
-                </center>
-            <li>Health, nutrition, and food security</li>
-                <p>
-                    Angat Buhay partner with organizations and have volunteers to provide healthcare for the Filipino communities with the
-                    intention to improve mental well-being, nutrition, and over-all health.
-                </p>
-                <center>
+                </center></td>
+            </tr>
+            <tr>
+                <td>Health, nutrition, and food security</td>
+                <td><p>Angat Buhay partner with organizations and have volunteers to provide healthcare for the Filipino communities with the
+                intention to improve mental well-being, nutrition, and over-all health.</p></td>
+                <td><center>
                 <img src="https://www.angatbuhay.ph/wp-content/uploads/2023/06/photo_2023-02-02-10.49.39.jpeg" alt="infographic" width="250">
                 <p style="font-size: xx-small; color:darkcyan">Figure 4. Infographic regarding statistics on e-consulting impact</p>
-                </center>
-            <li>Climate action and sustainability</li>
-                <p>
-                    Angat Buhay provides relief operations during calamities.
-                </p>
-                <center>
+                </center></td>
+            </tr>
+            <tr>
+                <td>Climate action and sustainability</td>
+                <td><p>Angat Buhay provides relief operations during calamities.</p></td>
+                <td><center>
                 <img src="https://www.angatbuhay.ph/wp-content/uploads/2025/09/AB-Typhoon-Kristine-1.jpeg" alt="relief operations" width="250">
                 <p style="font-size: xx-small; color:darkcyan">Figure 5. Relief operations in response to Typhoon Kristine</p>
-                </center>
+                </center></td>
+            </tr>
             </table>
     </p>
     <center>
-        <h1 style="color:lightpink">Contacts</h1>
+        <h1 style="color:lightpink">Contacts</h1><br>
         <p style="color:darkcyan; font-size: medium;">
-            Get in contact with Angat Buhay! The follow is the list of their available contacts:
-        </p>
+            Get in contact with Angat Buhay! The follow are links of their available contacts:
+        </p><br>
             <a href="https://www.facebook.com/angatbuhaypilipinas">
                 <img src="data:image/png;base64,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" width="50">
             </a>
